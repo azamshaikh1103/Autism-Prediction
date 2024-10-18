@@ -1,4 +1,5 @@
 import { Star, Twitter, Linkedin } from "lucide-react";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -76,7 +77,7 @@ const Testimonials = () => {
               }`}
             >
               <div className="flex items-center mb-4">
-                <img
+                <Image
                   src={testimonial.image}
                   alt={testimonial.author}
                   width={48}

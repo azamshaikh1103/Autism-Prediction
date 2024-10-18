@@ -1,4 +1,4 @@
-"use client"; // Ensure this is at the very top of the file
+"use client";
 
 import { useState } from "react";
 import axios from "axios";
@@ -11,9 +11,8 @@ const DemoPage = () => {
     const formData = new FormData(event.currentTarget);
     const formValues: { [key: string]: number } = {};
 
-    // Convert formData to a simple object with correct data types
     formData.forEach((value, key) => {
-      formValues[key] = Number(value); // Convert all values to numbers
+      formValues[key] = Number(value);
     });
     
 

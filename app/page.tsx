@@ -2,7 +2,7 @@
 
 import HeroSection from "./components/HeroSection";
 import Testimonials from "./components/Testimonials"; 
-import { CheckCircle, Twitter, Linkedin } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 
 export default function Homepage() {
   return (
